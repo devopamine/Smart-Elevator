@@ -12,3 +12,8 @@ If no, it recognises whether the user wants to go and then feeds it to the datab
 It then assigns the lift which is going up and nearer to that floor.
 What’s the system and how it works? In our system we have simulated the lift environment using a arduino board. When a person is recognised through the cameras near the lift,it first checks whether the person is present in the database of the lift.If the person is present it searches for the floor which he regularly visits at that point of time and it automatically selects the floor.If the person doesn’t exist in the database of the lift it first monitors the floor he visits daily and then registers his face in the database.
 
+
+ Instructions to Run This System:
+ 
+ # Firstly Arduino code has to be flashed/dumped into the Arduino.
+ # Run the Python code.
